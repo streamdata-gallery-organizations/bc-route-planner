@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - BC Route Planner",
+	"description": "This is a repository of bc route planner APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/bc-route-planner.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://bc-route-planner.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "BC Route Planner",
+			"x-api-slug": "bc-route-planner",
+			"description": "The BC Route Planner is a REST web service that offers vehicle route plans that are based on the BC Digital Road Atlas (DRA). The BC Route Planner computes the shortest or fastest route between start and end points and returns the route, distance, time, and directions.",
+			"image": "",
+			"humanURL": "https://catalogue.data.gov.bc.ca/dataset/bc-route-planner",
+			"baseURL": "https://router.api.gov.bc.ca//",
+			"tags": "BC Route Planner",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/bc-route-planner/master/_listings/bc-route-planner/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "BC Route Planner",
+	"include": [
+		{
+			"name": "BC Route Planner",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/bc-route-planner/master/_listings/bc-route-planner/apis.yaml"
+		}
+	]
+}

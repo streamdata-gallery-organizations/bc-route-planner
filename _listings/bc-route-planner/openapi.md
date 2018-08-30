@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: BC Route Planner
 x-complete: 1
@@ -159,4 +158,3 @@ paths:
       tags:
       - Route
       - OutputFormat
----
